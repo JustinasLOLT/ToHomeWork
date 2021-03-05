@@ -1,3 +1,4 @@
 #pragma once
 
-int Text();
+int OText();
+int IText();

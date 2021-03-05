@@ -6,5 +6,7 @@ using std::cin;
 using std::cout;
 
 int main(){
-      Text();
+      //OText();
+
+      IText();
 }
