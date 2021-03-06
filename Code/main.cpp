@@ -8,5 +8,9 @@ using std::cout;
 int main(){
       //OText();
 
-      IText();
+      //IText();
+
+      //test();
+
+      test2();
 }

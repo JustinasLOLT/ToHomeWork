@@ -51,7 +51,52 @@ int IText()
 
       for (string name : names)
       {
-            cout << name << endl;
+            cout << name << endl; // galima keisti faila (Uzdarbis.txt)
       }
       return 0;
+}
+// int test()
+// {
+//       cout << "hi ther" << endl;
+//       int sum = 0;
+//       int x;
+//       char fileName[50];
+//       ifstream numbersFile;
+//       getline(fileName, 50);
+//       numbersFile.open(fileName);
+
+//       if (!numbersFile.is_open())
+//       {
+//             cout << "not work" << endl;
+//             return 0;
+//       }
+//       while (numbersFile >> x)
+//       {
+//             sum += x;
+//             cout << x << "  ";
+//       }
+//       cout << sum << "sum of x" << endl;
+//       return 0;
+//}
+int test2()
+{
+      ifstream file_uzdarbis("Uzdarbis.txt");
+
+      vector<string> names;
+      
+      string line, input;
+      getline(file_uzdarbis, line); //getline kaskaip veikia
+      cout << line << endl;
+      
+      while (file_uzdarbis >> input)
+      {
+            names.push_back(input);
+      }
+
+            for (string name : names)
+      {
+            cout << name << endl; // galima keisti faila (Uzdarbis.txt)
+      }
+      
+      return 0;//kaip vieia nesuprantu baigiu 2:15
 }
