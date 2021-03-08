@@ -11,7 +11,6 @@ using std::ifstream;
 using std::ofstream;
 using std::string;
 using std::vector;
-using namespace std;
 
 int OText()
 {
